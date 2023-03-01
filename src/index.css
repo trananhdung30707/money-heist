@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .login-input {
+    @apply px-3 h-[5vh] w-[90vw] md:w-[30vw] bg-[#ebebeb] rounded-lg outline-none ring-[#fa5d5d] hover:ring-2 focus:ring-2;
+  }
+}
